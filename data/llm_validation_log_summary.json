@@ -1,0 +1,9 @@
+{
+  "validator_model": "gpt-4.1",
+  "n_items": 527,
+  "auto_validated": 524,
+  "flagged_for_review": 2,
+  "needs_human_review": 1,
+  "validator_error": 0,
+  "flag_rate": 0.0056925996204933585
+}

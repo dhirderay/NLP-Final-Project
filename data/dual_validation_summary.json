@@ -1,0 +1,10 @@
+{
+  "dual_validator_model": "claude-sonnet-4-6",
+  "primary_validator_model": "gpt-4.1",
+  "n_reviewed": 82,
+  "n_rejected_by_dual": 15,
+  "rejection_rate_proxy": 0.18292682926829268,
+  "agreement_rate_with_primary": 0.8292682926829268,
+  "gate_pass_le_8pct": false,
+  "gate_pass_agreement_ge_85pct": false
+}

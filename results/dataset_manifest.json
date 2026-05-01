@@ -1,0 +1,9 @@
+{
+  "phase1_n": 100,
+  "phase2b_generated_n": 527,
+  "phase2b_validated_n": 511,
+  "combined_n": 611,
+  "sha256": "f96bd8b29cd2059cf557b6d924a08cbc170c2d48472b721f4ed7192a17e13a48",
+  "primary_validator": "gpt-4.1",
+  "dual_validator": "claude-sonnet-4-6"
+}

@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Local
+.env
+.env.local
+
+# Logs from interactive runs (not committed)
+*.log
+
+# Hugging Face cache (re-downloaded as needed)
+.cache/
+
+# Claude Code planning docs (kept local only)
+CLAUDE_CODE_HANDOFF.md
+CLAUDE_CODE_PHASE2B_v2.md
+.claude/

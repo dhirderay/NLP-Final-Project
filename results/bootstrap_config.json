@@ -1,0 +1,8 @@
+{
+  "n_resamples": 5000,
+  "seed": 20260501,
+  "method": "percentile",
+  "alpha_uncorrected": 0.05,
+  "alpha_bonferroni_per_test": 0.01,
+  "n_strong_categories_corrected": 5
+}

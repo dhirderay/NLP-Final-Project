@@ -1,0 +1,42 @@
+{
+  "n_items": 100,
+  "spearman_rho": -0.22360679774997896,
+  "per_model_summary": [
+    {
+      "model": "LaBSE",
+      "n_items": 100,
+      "mean_pair_distinction": 0.002476527588441968,
+      "threshold_cos": 0.3568568229675293,
+      "pair_pass_rate": 0.0
+    },
+    {
+      "model": "MiniLM-multi",
+      "n_items": 100,
+      "mean_pair_distinction": 0.005508283153176308,
+      "threshold_cos": 0.183573916554451,
+      "pair_pass_rate": 0.0
+    },
+    {
+      "model": "E5-multi",
+      "n_items": 100,
+      "mean_pair_distinction": 0.0008735072333365679,
+      "threshold_cos": 0.7820906043052673,
+      "pair_pass_rate": 0.0
+    },
+    {
+      "model": "E5-large",
+      "n_items": 100,
+      "mean_pair_distinction": 0.0005498600075952709,
+      "threshold_cos": 0.7753437161445618,
+      "pair_pass_rate": 0.0
+    },
+    {
+      "model": "bge-m3",
+      "n_items": 100,
+      "mean_pair_distinction": 0.002355457516387105,
+      "threshold_cos": 0.34787821769714355,
+      "pair_pass_rate": 0.0
+    }
+  ],
+  "note": "Cross-validation uses mean_pair_distinction (continuous) \u2014 pair_pass binary metric was degenerate (all 0) because gram/ungram pairs differ only in a single morpheme, which the encoders barely register."
+}
