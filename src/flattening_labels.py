@@ -5,8 +5,9 @@ Three buckets:
   partial         English can express it, but a default translation drops it.
   non_flattening  English does distinguish; included as sanity checks.
 
-Per-item overrides (es_ser_012/013/014) are listed below; everything
-else is determined by category. See QA_NOTES.md for the full rationale.
+The lookup is by category, with explicit per-item overrides for the
+ser/estar non-flattening exceptions (es_ser_012/013/014: aburrido,
+listo, malo - English distinguishes boring/bored, smart/ready, bad/sick).
 """
 
 from __future__ import annotations

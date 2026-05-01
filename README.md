@@ -2,7 +2,7 @@
 
 Do multilingual sentence embeddings preserve semantic distinctions that the source language encodes but English does not? We test this on hand-authored and LLM-generated minimal-pair triplets in Hindi and Spanish, plus 100 gender-agreement items from MultiBLiMP, and compare native-language scoring against an English-translation pivot baseline.
 
-The headline finding: on strong-flattening categories (kinship granularity, T-V formality, Spanish gender agreement on neutral nouns) multilingual encoders beat the English-pivot baseline by very large, statistically significant margins. On partial-flattening categories the picture is mixed; ser/estar in particular collapses across every multilingual encoder we tested. See [REPORT_SUMMARY.md](REPORT_SUMMARY.md) for the full writeup.
+The headline finding: on strong-flattening categories (kinship granularity, T-V formality, Spanish gender agreement on neutral nouns) multilingual encoders beat the English-pivot baseline by very large, statistically significant margins. On partial-flattening categories the picture is mixed; ser/estar in particular collapses across every multilingual encoder we tested.
 
 ## Repository layout
 
@@ -10,9 +10,7 @@ The headline finding: on strong-flattening categories (kinship granularity, T-V 
 .
 ├── triplets.json                       Phase 1 dataset (100 hand-authored triplets)
 ├── build_triplets.py                   reproducible builder for Phase 1 dataset
-├── QA_NOTES.md                         per-item linguistic notes for Phase 1
 ├── analysis_preregistration.md         pre-registration, frozen 2026-05-01
-├── REPORT_SUMMARY.md                   findings writeup
 ├── internal_proposal.md.pdf            original project proposal
 │
 ├── run_all.py                          Phase 1 entry point
